@@ -30,4 +30,5 @@ def counting_sort(A: list, k: int):
 
 
 if __name__ == '__main__':
-    counting_sort([4, 3, 3, 1, 2, 4, 2, 3], 4)
+    A = [4, 3, 3, 1, 2, 4, 2, 3]
+    counting_sort(A, max(A))
